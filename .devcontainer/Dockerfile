@@ -14,3 +14,5 @@ WORKDIR /home/vscode
 
 USER root
 # Project specific stuff
+
+RUN apk add nodejs npm
